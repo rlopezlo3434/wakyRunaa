@@ -1,0 +1,20 @@
+{
+	"files.exclude": {
+		"**/dist": false,
+		"**/node_modules": false
+	},
+	"npm.packageManager": "yarn",
+	"prettier.requireConfig": true,
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"editor.formatOnSave": true,
+	"editor.codeActionsOnSave": {
+		"source.fixAll": "explicit",
+		"source.fixAll.eslint": "explicit",
+		"source.organizeImports": "explicit"
+	},
+	"[properties]": {
+		"editor.defaultFormatter": "foxundermoon.shell-format"
+	},
+	"discord.enabled": true,
+	"cSpell.words": ["wakyruna"]
+}

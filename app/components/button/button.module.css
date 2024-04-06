@@ -1,0 +1,83 @@
+.btn {
+	font-size: 16px;
+	border-radius: 8px;
+	background: #ffce00;
+	cursor: pointer;
+	width: 100%;
+	display: flex;
+	padding: 8px 0 8px 0;
+	justify-content: space-around;
+	text-align: center;
+	font-weight: 500;
+	line-height: 28px;
+	border: 0;
+	overflow: hidden;
+	text-decoration: none;
+	display: inline-block;
+	animation: scale 0.5s ease-out;
+	transition: 0.3s ease;
+}
+
+.btn:hover {
+	cursor: pointer !important;
+}
+
+.primary {
+	background: #ffce00;
+	color: #2e198b;
+}
+.primary:hover {
+	background: #ffcc00d2;
+}
+
+.outline {
+	font-size: 16px;
+	border-radius: 8px;
+	background-color: transparent;
+	border: 3px solid #6f42c1;
+	color: #2e198b;
+}
+.outline:hover {
+	background-color: #6f42c1;
+	color: #ffffff;
+	border-color: #6f42c1;
+}
+
+.secondary {
+	background-color: #6f42c1;
+	color: #ffffff;
+	border-color: #6f42c1;
+}
+.secondary:hover {
+	background-color: rgba(110, 66, 193, 0.67);
+}
+
+.ghost {
+	background-color: #ffffff;
+	border: 1px solid #303030;
+}
+
+.ghost:hover {
+	background-color: #909090;
+}
+
+/* padding variant  */
+.mini {
+	padding: 2px 2px;
+}
+
+/* global animation  */
+.ripples {
+	position: absolute;
+	background: rgba(255, 253, 253, 0.69);
+	border-radius: 50%;
+	transform: scale(0);
+	animation: ripple-animate 1s ease-out;
+}
+
+@keyframes ripple-animate {
+	to {
+		transform: scale(4);
+		opacity: 0;
+	}
+}

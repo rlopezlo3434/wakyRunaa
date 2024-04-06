@@ -1,0 +1,24 @@
+.modal_content {
+	border-radius: 12px;
+	width: 100%;
+	max-width: 1000px !important;
+	position: relative;
+}
+
+.content {
+	margin: 5rem 5rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.content div {
+	max-width: 300px;
+	display: flex;
+	flex-direction: column;
+}
+
+.content p {
+	margin-bottom: 40px;
+}

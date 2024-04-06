@@ -1,0 +1,74 @@
+.content {
+	margin: 3rem 5rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.content p {
+	margin: 0px;
+	font-size: 18px;
+	text-align: center;
+	color: #5b5b5b;
+	max-width: 450px;
+}
+
+.content h2 {
+	color: #141928;
+	font-weight: 500;
+	font-size: 30px;
+}
+
+.modal_content {
+	border-radius: 12px;
+	width: 100%;
+	max-width: 1000px !important;
+	position: relative;
+}
+
+.back_btn {
+	display: flex;
+	gap: 5px;
+	position: absolute;
+}
+
+.back_btn span {
+	color: #5b40c8;
+	font-size: 16px;
+}
+
+.content_btns {
+	max-width: 300px;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.register_card_option_layout {
+	margin-top: 30px;
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	gap: 40px;
+}
+
+.register_card_option {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	box-shadow: 0px 2px 2px 1px #00000039;
+	width: 100%;
+	max-width: 250px;
+	min-height: 300px;
+	border-radius: 12px;
+	cursor: pointer;
+}
+
+.register_card_option span {
+	font-weight: 700;
+	font-size: 18px;
+	margin-top: 20px;
+	color: #5840c7;
+}

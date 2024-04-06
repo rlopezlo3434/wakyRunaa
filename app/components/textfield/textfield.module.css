@@ -1,0 +1,54 @@
+.textfield_label {
+	display: block;
+	position: relative;
+	width: 100%;
+}
+.textfield_label textarea {
+	min-height: 200px;
+	max-height: 200px;
+	font-size: 14px;
+	border: none;
+	padding-top: 21px;
+	font-weight: normal;
+	resize: none;
+}
+.textfield_input {
+	height: 48px;
+	padding: 10px;
+	padding-top: 17px;
+	border-radius: 8px;
+	width: 100%;
+	outline: none;
+	font-size: 14px;
+	font-weight: normal;
+}
+
+.textfield_placeholder {
+	position: absolute;
+	left: 9px;
+	top: 13px;
+	padding: 3px 8px;
+	color: #26282e;
+
+	background-color: #fff;
+	border-radius: 4px;
+	transform-origin: top left;
+	transition: all 120ms ease-in;
+}
+
+.textfield_input:focus + .textfield_placeholder,
+.textfield_input:not(:placeholder-shown) + .textfield_placeholder {
+	top: -5px;
+	transform: scale(0.8);
+}
+
+/* variant */
+
+.outlined input {
+	border: 2px solid #6f42c1;
+	color: #6f42c1;
+}
+
+.ghost input {
+	border: none;
+}

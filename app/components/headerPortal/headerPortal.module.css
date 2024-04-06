@@ -1,0 +1,132 @@
+.link_container {
+	display: flex;
+	align-items: center;
+}
+.header_container {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	padding-top: 15px;
+	padding-left: 60px;
+	padding-right: 90px;
+	padding-bottom: 15px;
+	position: relative;
+}
+
+/* .iconLogout {
+	padding-left: 1200px;
+} */
+
+.header_links {
+	display: flex;
+	width: 100%;
+	align-items: center;
+	justify-content: flex-end;
+	gap: 36px;
+}
+
+.header_background {
+	background: linear-gradient(129deg, #5640c7 11.67%, #ae39dd 75.38%);
+}
+
+.link {
+	color: white;
+	cursor: pointer;
+	font-size: 17px;
+	line-height: 20px;
+	font-weight: 500;
+	transition: all 400ms ease;
+}
+
+.link_active {
+	color: #ffce00;
+	cursor: pointer;
+	font-weight: bold;
+}
+
+@media screen and (max-width: 1000px) {
+	.benefits_section {
+		padding-left: 2rem;
+		padding-right: 2rem;
+	}
+}
+
+@media screen and (max-width: 1000px) {
+	.benefits_section {
+		padding-left: 2rem;
+		padding-right: 2rem;
+	}
+}
+
+@media screen and (max-width: 1000px) {
+	.benefits_section {
+		padding-left: 2rem;
+		padding-right: 2rem;
+	}
+}
+
+.header_menu_btn {
+	display: none;
+}
+
+@media screen and (max-width: 1200px) {
+	.header_container {
+		padding-left: 0px !important;
+		padding-right: 0px !important;
+	}
+
+	.header_menu_btn {
+		display: block;
+	}
+
+	.header_links {
+		flex-direction: column;
+		position: absolute;
+		width: 100%;
+		max-width: 150px;
+		top: 100px;
+		background-color: #5640c7;
+		z-index: 100;
+		right: 150px;
+		border: 1px solid #c3c3c3c3;
+		border-radius: 12px;
+		padding: 10px;
+		gap: 10px;
+	}
+
+	.header_links a {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 50px;
+		width: 100%;
+	}
+
+	.header_links a:hover {
+		border-radius: 12px;
+		background-color: #cecece41;
+	}
+}
+
+.header_container {
+	display: flex;
+	justify-content: space-between; /* Esto separa los elementos a los lados */
+	align-items: center;
+}
+
+.header_left {
+	margin-right: auto; /* Esto empuja los elementos a la izquierda */
+}
+
+.header_right {
+	display: flex;
+	align-items: center; /* Alinea verticalmente */
+}
+
+.header_links {
+	display: flex;
+}
+
+.iconLogout {
+	margin-right: 20px; /* Espacio entre los enlaces y el ícono de logout */
+}

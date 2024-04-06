@@ -1,0 +1,120 @@
+.header_container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-top: 43px;
+	padding-left: 150px;
+	padding-right: 150px;
+	padding-bottom: 51px;
+	position: relative;
+}
+
+.header_links {
+	display: flex;
+	width: 100%;
+	align-items: center;
+	justify-content: flex-end;
+	gap: 36px;
+}
+
+.header_background {
+	background: linear-gradient(129deg, #5640c7 11.67%, #ae39dd 75.38%);
+}
+
+.link {
+	color: white;
+	cursor: pointer;
+	font-size: 14px;
+	line-height: 20px;
+	font-weight: 500;
+	transition: all 400ms ease;
+}
+
+.link_active {
+	color: #ffce00;
+	cursor: pointer;
+	font-weight: bold;
+}
+
+@media screen and (max-width: 1000px) {
+	.benefits_section {
+		padding-left: 2rem;
+		padding-right: 2rem;
+	}
+}
+
+@media screen and (max-width: 1000px) {
+	.benefits_section {
+		padding-left: 2rem;
+		padding-right: 2rem;
+	}
+}
+
+@media screen and (max-width: 1000px) {
+	.benefits_section {
+		padding-left: 2rem;
+		padding-right: 2rem;
+	}
+}
+
+.header_menu_btn {
+	display: none;
+}
+
+@media screen and (max-width: 1000px) {
+	.isActive {
+		visibility: visible !important;
+	}
+	.header_menu_btn {
+		cursor: pointer;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding: 4px;
+
+		border: 1px solid #ffffff95;
+		border-radius: 4px;
+	}
+
+	.header_menu_btn:hover {
+		background-color: #ffffff42;
+	}
+
+	.header_menu_btn img {
+		width: 30px;
+		height: 30px;
+	}
+
+	.header_links {
+		visibility: hidden;
+		background: linear-gradient(129deg, #5640c7 11.67%, #ae39dd 75.38%);
+		border: 1px solid #ffffff95;
+		position: absolute;
+		top: 100px;
+		border-radius: 12px;
+		display: flex;
+		flex-direction: column;
+		width: min-content;
+		padding: 10px;
+		right: 50px;
+		width: 200px;
+		gap: 10px;
+	}
+	.header_links a {
+		width: 100%;
+		padding: 20px 0;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		border-radius: 12px;
+	}
+
+	.header_links a:hover {
+		background-color: #ffffff58;
+	}
+
+	.header_container {
+		padding-left: 4rem;
+		padding-right: 4rem;
+	}
+}

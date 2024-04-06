@@ -1,0 +1,233 @@
+.limit_area {
+	max-width: 1200px;
+	widows: 100%;
+	margin: auto;
+}
+
+.main_section {
+	display: flex;
+	align-items: center;
+	padding-left: 30px;
+	padding-right: 30px;
+	justify-content: space-between;
+	padding-top: 40px;
+	background-color: #eeebff;
+}
+.main_section_info {
+	width: 100%;
+	max-width: 488px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding-bottom: 94px;
+	padding-top: 72px;
+}
+.home_container {
+	background: #eeebff;
+	/* background: linear-gradient(129deg, #5640c7 11.67%, #ae39dd 75.38%); */
+}
+.text_container {
+	margin-left: 300px;
+	width: 400px;
+	margin-top: 100px;
+	padding-bottom: 85px;
+}
+
+@media screen and (max-width: 1000px) {
+	.main_section {
+		justify-content: center;
+		gap: 70px;
+	}
+
+	.main_section_info {
+		margin-top: 20px;
+		padding-left: 2rem;
+		padding-right: 2rem;
+		padding-bottom: 0;
+	}
+
+	.main_image {
+		top: 60px;
+		position: inherit;
+		width: 100%;
+	}
+}
+
+.color_text {
+	color: #190d67;
+	font-size: 35px;
+}
+.image_cotainer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	position: absolute;
+	top: 1830px; /* Ajustar según sea necesario */
+	left: 290px; /* Ajustar según sea necesario */
+}
+
+@media screen and (max-width: 1000px) {
+	.contact_section_info {
+		margin-top: 20px;
+	}
+}
+
+@media screen and (max-width: 900px) {
+	.main_section {
+		text-align: center;
+		flex-wrap: wrap;
+		justify-content: center;
+		gap: 40px;
+	}
+}
+
+.main_section p {
+	color: #190d67;
+	margin-top: 23px;
+	font-size: 16px;
+	line-height: 20px;
+}
+
+.main_section h1 {
+	color: #190d67;
+	margin: 0px;
+	padding: 0px;
+	font-size: 44px;
+}
+@keyframes appearUp {
+	from {
+		opacity: 0;
+		transform: translateY(60px);
+	}
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+.text_container,
+.meditate_person {
+	animation: appearUp 1s ease-out;
+}
+
+.cardContainer {
+	display: flex;
+	justify-content: center;
+}
+.background_benefits_section {
+	padding-top: 45px;
+	background-color: #ffffff;
+	padding-bottom: 150px;
+}
+.background_start {
+	padding: 0px;
+	background-color: #ffffff;
+	padding-bottom: 230px;
+}
+.cardGrid {
+	margin-top: 60px;
+	margin-left: 380px; /* Margen a la izquierda */
+	margin-right: 380px;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 10px;
+	/* Espacio entre las tarjetas */
+}
+.main_section {
+	display: flex;
+	align-items: center;
+	padding-left: 30px;
+	padding-right: 30px;
+	justify-content: space-between;
+	padding-top: 40px;
+	background-color: #eeebff;
+}
+
+.main_section2 {
+	border-radius: 20px;
+	display: flexbox;
+	align-items: center;
+	padding-left: 30px;
+	padding-right: 90px;
+	justify-content: space-between;
+	background-color: #ebefff;
+	padding-bottom: 40px;
+	height: 300px;
+}
+
+.main_section h1 {
+	color: #190d67;
+	margin: 0px;
+	padding: 0px;
+	font-size: 44px;
+}
+.main_section2 p2 {
+	color: #190d67;
+	font-size: 25px;
+	line-height: 20px;
+}
+.main_section2 p {
+	color: #190d67;
+	font-size: 15px;
+	line-height: 20px;
+}
+.main_section_info2 {
+	width: 100%;
+	max-width: 1400px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding-top: 40px;
+}
+.limit_area2 {
+	max-width: 1200px;
+	widows: 100%;
+	margin: auto;
+}
+
+.submain1 {
+	margin: 0;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-bottom: 30px;
+	border-radius: 20px;
+	display: inline-flex;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+	width: 500px; /* La mitad del ancho total para mantenerlos en la misma línea */
+	background-color: #ffffff;
+	margin-right: 60px; /* Espacio entre los elementos */
+	justify-content: center;
+	padding-top: 40px;
+}
+
+.submain2 {
+	padding-left: 40px; /* Ajusta este valor según el espacio deseado */
+	padding-right: 90px;
+	padding-bottom: 30px;
+	border-radius: 20px;
+	display: inline-flex;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+	width: 500px; /* La mitad del ancho total para mantenerlos en la misma línea */
+	background-color: #ffffff;
+	margin-left: 20px; /* Espacio entre los elementos */
+	justify-content: center;
+	padding-top: 40px;
+}
+
+.cardsoption {
+	padding-top: 40px;
+	align-items: center;
+	margin: auto;
+}
+
+.subImage {
+	padding-right: 50px;
+}
+
+.textCenter {
+	padding-top: 120px;
+	cursor: pointer;
+	position: relative;
+	transition: ease 0.8s;
+	text-align: center;
+}

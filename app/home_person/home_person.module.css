@@ -1,0 +1,38 @@
+.home_container {
+	background: #ffff;
+	/* background: linear-gradient(129deg, #5640c7 11.67%, #ae39dd 75.38%); */
+}
+
+.home_main_container {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	height: 100%;
+}
+
+.info_container {
+	background-color: #ebefff;
+	display: flex;
+	width: 100%;
+	gap: 30px;
+	justify-content: center;
+	align-items: center;
+	border-radius: 12px;
+	padding: 30px 0;
+}
+
+.container {
+	width: 100%;
+	margin: auto;
+	height: 800px;
+	max-width: 800px;
+	gap: 30px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.home_body {
+	display: flex;
+}

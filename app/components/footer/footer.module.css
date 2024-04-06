@@ -1,0 +1,22 @@
+.footer_container {
+	background-color: #190d67;
+	height: 140px;
+}
+
+.copy_right {
+	color: #fff;
+	font-size: 14px;
+	font-family: 'Roboto', sans-serif;
+	margin-left: 40px;
+}
+
+.icons_container {
+	display: flex;
+	align-items: center;
+	margin: 0px 40px 0px 40px;
+	padding-top: 20px;
+}
+
+.only_icons {
+	margin-left: auto;
+}
